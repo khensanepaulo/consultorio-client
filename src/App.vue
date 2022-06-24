@@ -22,15 +22,25 @@
 
           <p class="menu-label"> Pessoas </p>
           <ul class="menu-list">
-            <li><a>Paciente</a></li>
-            <li><a>Médico</a></li>
-            <li><a>Secretaria</a></li>
+            <li>
+              <router-link to="/paciente">Pacientes</router-link>
+            </li>
+            <li>
+              <router-link to="/medico">Medicos</router-link>
+            </li>
+            <li>
+              <router-link to="/secretaria">Secretarias</router-link>
+            </li>
           </ul>
 
           <p class="menu-label"> Administração </p>
           <ul class="menu-list">
-            <li><a>Especialidade</a></li>
-            <li><a>Convênio</a></li>
+            <li>
+              <router-link to="/especialidades">Especialidades</router-link>
+            </li>
+            <li>
+              <router-link to="/convenio">Convenio</router-link>
+            </li>
           </ul>
         </aside>
       </nav>
