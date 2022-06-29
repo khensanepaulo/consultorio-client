@@ -10,7 +10,9 @@
             <div class="control" style="display: flex;">
                 <input class="input fas fa-info-circle" type="text" placeholder="pesquisa">
                 <button class="button is-link" style="margin-left: 10px;">Buscar</button>
-                <button class="button is-success" style="left: 120%;">Novo</button>
+                <button class="button is-success" style="left: 120%;">
+                    <router-link to="/secretariaForm">Novo</router-link>
+                </button>
             </div>
         </div>
     </div>
@@ -34,7 +36,9 @@
                     <td>1500</td>
                     <td>05/03/2020</td>
                     <td>
-                        <button class="button is-warning is-small">editar</button>
+                        <button class="button is-warning is-small">
+                            <router-link to="/secretariaForm">editar</router-link>
+                        </button>
                         <button class="button is-danger is-small" style="margin-left: 10px;">excluir</button>
                     </td>
                 </tr>

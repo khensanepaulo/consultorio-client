@@ -2,7 +2,7 @@
 
   <div class="column">
     <div class="columns is-12 menu-top">
-      Consultório - XYZ
+      Consultório
     </div>
   </div>
 
